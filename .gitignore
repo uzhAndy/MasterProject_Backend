@@ -1,0 +1,19 @@
+# ignore python folders
+__pycache__/
+.idea/
+.venv/
+.scannerwork/
+
+# ignore DB
+*.db
+
+# ignore personal log files
+/infos.log
+*.log
+Groot/Logging/log-files/
+
+venv
+
+run.sh
+
+.VSCodeCounter/*

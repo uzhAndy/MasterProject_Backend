@@ -1,0 +1,13 @@
+The requirements file is updated with:
+pipreqs --force
+
+The command for the database is used:
+windows:  $env:FLASK_APP = "groot.py" or set FLASK_APP="groot.py"
+          flask init-db
+
+mac/linux:  export FLASK_APP=groot.py
+            flask init-db
+
+activate conda environment
+            source activate name
+            activate name

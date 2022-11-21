@@ -1,0 +1,8 @@
+Currently the Database gets deleted and created newly if the
+database schema is changed. In production this is not desirable.
+Therefore, this script the python package allows migration of sqlite to some extend
+
+https://github.com/miguelgrinberg/Flask-Migrate
+
+Not implemented so far since it is likely to use a different database in production due to the sequential
+nature of SQlite, which poses a problem for larger applications.
